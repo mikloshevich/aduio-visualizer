@@ -2,7 +2,7 @@ const ctx = new AudioContext();
 const analyser = ctx.createAnalyser();
 const body = document.querySelector('body');
 
-const num = 256;
+const num = 128;
 const width = 0.2;
 
 let barHeight;
