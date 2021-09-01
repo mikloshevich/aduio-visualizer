@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3a3a3a;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+/*.line {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100vw;
+    height: 2px;
+    background: white;
+    border-radius: 30px;
+}*/
+
+.bar {
+    height: 25vh;
+    transform: scaleY(0);
+    border-radius: 50%;
+}
