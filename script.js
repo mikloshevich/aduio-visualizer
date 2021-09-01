@@ -3,7 +3,7 @@ const analyser = ctx.createAnalyser();
 const body = document.querySelector('body');
 
 const num = 256;
-const width = 0.2;
+const width = 0.25;
 
 let barHeight;
 
